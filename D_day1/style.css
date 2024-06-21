@@ -1,0 +1,102 @@
+h1{
+    color:blueviolet;
+    /* kiểu chữ */
+    font-style:italic;
+    /* font chữ */
+    font-family: 'Times New Roman', Times, serif;
+    /* căn giữa */
+    text-align: center;
+    /* chuyển hoa thường */
+    text-transform: capitalize;
+}
+/* opacity: trong suốt của phần tử và cả nền (ẩn khỏi giao diện nhưng vẫn tồn tại khác và tương tác đc vs display: ẩn và xóa luôn phần tử nó chiếm) */
+/* visibility: ẩn hoặc hiện element (giống với opacity nhưng khác nó k tương tác đc) */
+h3{
+    /* opacity: 0; */
+    /* display: none; */
+    visibility: hidden;
+    background-color: blue;
+}
+/* visibility: có tính kế thừa từ phần tử con */
+span{
+    visibility: visible;
+}
+img{
+    transition: 0.5s;
+}
+input:checked ~ img{
+    /* biến khỏi giao diện nhưng vẫn chiếm vị trí */
+    /* visibility: hidden; */
+    /* biến khỏi giao diện nhưng chiếm vị trí và tương tác được */
+    /* opacity: 0; */
+    /* biến mất khỏi giao diện */
+    display: none;
+}
+/* ID = # */
+#doan1{
+    color: red;
+}
+/* class = . */
+.menu-item{
+    list-style: none;
+}
+h2.demo{
+    color: red;
+}
+ul,li.menu-item{
+    color: blueviolet;
+}
+.demo.demo1{
+    color: aqua;
+}
+/* định dạng p là con của div */
+div p{
+    font-size: 25px;
+    color: pink;
+}
+/* định dạng p có class DHT */
+.DHT p{
+    font-size: 30px;
+    color: forestgreen;
+}
+/* định dạng phần con trực tiếp của nó còn cái <p> "thêm" nó k phải con trực tiếp vì dùng block vs thuộc vô dòng */
+div >p{
+    color: brown;
+}
+/* chọn phần tử định dạng sát ngay sau nó demo1 + h2 */
+.demo1 + h2 {
+    color: gray;
+}
+/* chọn tất cả các thẻ s2 nằm sau s1  */
+.test ~ h2{
+    color: chocolate;
+}
+[href]{
+    color: orange;
+}
+a[target= "_blank"]{
+    color: darkblue;
+}
+/* title có chứa từ đó giống y */
+[title~="trangchu"]{
+    color: deeppink;
+}
+/* title có chứa 1 từ trong đó là đủ*/
+[title*="trang"]{
+    color: greenyellow;
+}
+/* bắt đầu bằng chữ hello */
+[title|="hello"]{
+    color:lightseagreen
+}
+/* miễn có chữ hello ở đầu là đc */
+[title^="hello"]{
+    color:lightseagreen
+}
+/* kết thúc bằng kí tự 1 */
+[title $="1"]{
+    color: blue;
+}
+[title $="?"]{
+    color: blue;
+}
