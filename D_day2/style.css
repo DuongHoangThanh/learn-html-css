@@ -1,0 +1,118 @@
+/* hover là di chuyển chuột qua */
+#line2:hover{
+    color: red;
+    font-size: 25px;
+}
+/* active là nhấn giữ */
+.line3:active{
+    color: green;
+    font-size: 30px;
+}
+/* link ch truy cập */
+.click-me:link{
+    color:chocolate;
+}
+/* link đã truy cập sẽ đổi màu */
+.click-me:visited{
+    color: blue;
+}
+/* empty định dạng khi k có nội dung */
+/* .eml:empty{
+    width: 50px;
+    height: 40px;
+    background-color: aqua;
+}
+.eml{
+    width: 50px;
+    height: 40px;
+    background-color: aqua;
+} */
+.eml{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    /* trên dưới - trái phải */
+    padding: 30px 20px;
+    /* trên - trái phải - dưới */
+    padding: 25px 30px 20px;
+    /* trên - phải- dưới - trái  */
+    padding: 20px 10px 15px 25px;
+    /* double 2 đường */
+    border: 10px double black;
+    /* dotted là dấu chấm */
+    /* border: 10px dotted black; */
+    /* dashed nét đứt */
+    /* border: 20px dashed black; */
+    /* border: 20px solid pink; */
+    /* border-radius: 10px 20px 30px 40px; */
+}
+.eml2{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    /* trên dưới - trái phải */
+    padding: 30px 20px;
+    /* trên - trái phải - dưới */
+    padding: 25px 30px 20px;
+    /* trên - phải- dưới - trái  */
+    padding: 20px 10px 15px 25px;
+    /* double 2 đường */
+    border: 10px double black;
+    /* dotted là dấu chấm */
+    /* border: 10px dotted black; */
+    /* dashed nét đứt */
+    /* border: 20px dashed black; */
+    /* border: 20px solid pink; */
+    /* border-radius: 10px 20px 30px 40px; */
+    margin-left:  105px ;
+}
+.eml3{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    /* trên dưới - trái phải */
+    padding: 30px 20px;
+    /* trên - trái phải - dưới */
+    padding: 25px 30px 20px;
+    /* trên - phải- dưới - trái  */
+    padding: 20px 10px 15px 25px;
+    /* double 2 đường */
+    border: 10px double black;
+    /* dotted là dấu chấm */
+    /* border: 10px dotted black; */
+    /* dashed nét đứt */
+    /* border: 20px dashed black; */
+    /* border: 20px solid pink; */
+    /* border-radius: 10px 20px 30px 40px; */
+    margin-left:  210px;
+}
+/* chỉ sử dụng cho phần #id nhảy tới phần có ULR tương ứng */
+h2:target{
+    color: yellow;
+}
+body{
+    background-color: #ddd;
+    
+}
+.container h1{
+    color: orange;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.container{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+}
+.eml{
+    margin: 0 auto;
+}
+.eml2{
+    margin: 0 auto;
+}
+.eml3{
+    margin: 0 auto;
+}
