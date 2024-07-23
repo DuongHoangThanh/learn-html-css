@@ -1,0 +1,43 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 10px solid red;
+}
+
+.box1{
+    margin-bottom: 50px;
+
+}
+.box2{
+    margin-top: 70px;
+ } */
+  /* margin collapes không tác động theo chiều ngang */
+/* .item{
+    border: 2px solid red;
+    background-color: yellow;
+}
+.item1{
+    margin-right: 20px;
+}
+.item2{
+    margin-left: 10px;
+} */
+
+.box_parent{
+    background-color: pink;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;/* cách khắc phục margin collapse */
+    flex-direction: column;
+}
+
+.box_child{
+    background-color: blue;
+    width: 100px;
+    margin-top: 70px;
+}

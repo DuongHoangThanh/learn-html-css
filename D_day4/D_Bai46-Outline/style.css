@@ -1,0 +1,10 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 20px solid red;
+    outline: 20px solid blue;
+    outline-offset: 10px;
+    margin: 40px;
+}
+/* ouline sẽ tính từ phần tử cuối cùng ví dụ như có padding 
+thì tính từ padding còn k có padding thì tính content */

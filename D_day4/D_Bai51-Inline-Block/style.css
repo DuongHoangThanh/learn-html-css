@@ -1,0 +1,31 @@
+/* strong{
+    padding: 30px;
+    background-color: blue;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+} */
+ /* thẻ <a> inline k lm thay đổi các thuộc tính sau 
+ 1-padding-top,padding-bottom
+ 2-margin-top, margin-bottom
+ 3-width,height,min-width,min-height */
+ body{
+    background-color: aqua;
+ }
+ a{
+    text-decoration: none;
+    background-color: pink;
+    color: black;
+    border-radius: 999px;
+    width: 100px;
+    margin-top: 30px;
+    padding: 8px 16px;
+    text-align: center;
+    display: inline-block;
+ }
+
+ a:hover{
+    background-color: black;
+    color: plum;
+ }
